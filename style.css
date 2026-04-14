@@ -1183,12 +1183,20 @@ a {
     }
 
     .gallery-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for better balance */
-        gap: var(--space-md);
+        grid-template-columns: repeat(3, 1fr); /* 3 columns to match Instagram feed style */
+        gap: var(--space-xs); /* Smaller gap for tighter feed look */
     }
 
     .gallery-item img {
-        height: 200px; /* Reduced from 250px for better fit in 2-col grid */
+        height: auto;
+    }
+
+    .gallery-tag {
+        font-size: 0.7rem; /* Smaller text for 3-col mobile grid */
+    }
+
+    .gallery-overlay {
+        padding: var(--space-xs); /* Smaller padding */
     }
 }
 
