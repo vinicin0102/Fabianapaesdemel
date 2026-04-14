@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pão de Mel da Fa | Pães de Mel Artesanais</title>
+    <meta name="description" content="Pães de mel artesanais feitos com amor e os melhores ingredientes. Cobertura de chocolate belga, recheios especiais. Encomende pelo WhatsApp!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo.png" alt="Pão de Mel da Fa" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#transformacao">Processo</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato" class="nav-cta">Encomendar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <span class="hero-badge">✨ Artesanal & Feito com Amor</span>
+            <h1 class="hero-title">
+                Pão de Mel<br>
+                <span class="hero-highlight">da Fa</span>
+            </h1>
+            <p class="hero-subtitle">
+                Cada pão de mel é uma obra de arte — massa especial de mel, 
+                recheio cremoso e cobertura de chocolate irresistível.
+            </p>
+            <div class="hero-buttons">
+                <a href="#galeria" class="btn btn-primary">Ver Delícias</a>
+                <a href="#contato" class="btn btn-outline">Fazer Pedido</a>
+            </div>
+            <div class="hero-scroll">
+                <span>Role para descobrir</span>
+                <div class="scroll-indicator"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper" data-animate="fade-right">
+                    <div class="about-image-decoration"></div>
+                    <div class="about-image">
+                        <img src="images/after.png" alt="Pão de mel artesanal">
+                    </div>
+                    <div class="about-float-badge">
+                        <span class="float-number">100%</span>
+                        <span class="float-text">Artesanal</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-tag">Nossa História</span>
+                    <h2 class="section-title">Feito com amor,<br><span class="text-accent">sabor que encanta</span></h2>
+                    <p class="about-text">
+                        Tudo começou na minha cozinha, com a vontade de criar algo 
+                        especial para as pessoas que amo. Cada pão de mel é preparado 
+                        artesanalmente, com ingredientes selecionados e muito carinho.
+                    </p>
+                    <p class="about-text">
+                        Da massa macia com toque de mel ao recheio cremoso, cada 
+                        etapa é feita com atenção aos detalhes. A cobertura generosa 
+                        de chocolate finaliza essa experiência única de sabor.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon">🍯</span>
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-suffix">%</span>
+                            <span class="stat-label">Ingredientes de qualidade</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">🍫</span>
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label">Pães de mel vendidos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">❤️</span>
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-suffix">%</span>
+                            <span class="stat-label">Clientes satisfeitos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="galeria">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Nossas Delícias</span>
+                <h2 class="section-title">Galeria de <span class="text-accent">Sabores</span></h2>
+                <p class="section-description">
+                    Cada pão de mel é único — confira de perto a qualidade dos nossos produtos
+                </p>
+            </div>
+            <div class="gallery-grid" data-animate="fade-up">
+                <div class="gallery-item gallery-item-large">
+                    <img src="images/produto1.jpg" alt="Pães de mel cobertos com chocolate" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Cobertura Perfeita</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto2.jpg" alt="Pão de mel cortado mostrando o recheio" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Recheio Cremoso</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto3.jpg" alt="Pão de mel com recheio" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Massa Especial</span>
+                    </div>
+                </div>
+                <!-- Extra items to fill the feed -->
+                <div class="gallery-item">
+                    <img src="images/produto1.jpg" alt="Delícia artesanal" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Feito com Amor</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto2.jpg" alt="Sabor irresistível" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Sabor Único</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto3.jpg" alt="Presente especial" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Presenteável</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto1.jpg" alt="Qualidade premium" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Premium</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto2.jpg" alt="Sabor inesquecível" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Inesquecível</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/produto3.jpg" alt="Artesanal" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Artesanal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before & After Section -->
+    <section class="section transformation" id="transformacao">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">O Processo</span>
+                <h2 class="section-title">Antes & <span class="text-accent">Depois</span></h2>
+                <p class="section-description">
+                    Arraste para ver a transformação — da massa artesanal à cobertura de chocolate
+                </p>
+            </div>
+            <div class="comparison-container" data-animate="fade-up">
+                <div class="comparison-slider" id="comparisonSlider">
+                    <div class="comparison-image comparison-before">
+                        <img src="images/before.png" alt="Pão de mel antes da cobertura">
+                        <span class="comparison-label comparison-label-before">Antes</span>
+                    </div>
+                    <div class="comparison-image comparison-after">
+                        <img src="images/after.png" alt="Pão de mel com cobertura de chocolate">
+                        <span class="comparison-label comparison-label-after">Depois</span>
+                    </div>
+                    <div class="comparison-handle" id="comparisonHandle">
+                        <div class="handle-line"></div>
+                        <div class="handle-circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M8 6L3 12L8 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M16 6L21 12L16 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="handle-line"></div>
+                    </div>
+                </div>
+                <p class="comparison-hint">👆 Arraste o controle para comparar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O que dizem <span class="text-accent">nossos clientes</span></h2>
+                <p class="section-description">
+                    A satisfação dos nossos clientes é nossa maior recompensa
+                </p>
+            </div>
+            <div class="testimonials-carousel-wrapper" data-animate="fade-up">
+                <button class="carousel-arrow carousel-arrow-left" id="carouselPrev" aria-label="Anterior">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                        <path d="M15 18L9 12L15 6"/>
+                    </svg>
+                </button>
+                <div class="testimonials-carousel" id="testimonialsCarousel">
+                    <div class="testimonials-track" id="testimonialsTrack">
+
+                        <!-- Feedback 1 -->
+                        <div class="testimonial-card">
+                            <img src="images/feedback1.jpg" alt="Feedback de cliente" class="testimonial-img" loading="lazy">
+                        </div>
+
+                        <!-- Feedback 2 -->
+                        <div class="testimonial-card">
+                            <img src="images/feedback2.jpg" alt="Feedback de cliente" class="testimonial-img" loading="lazy">
+                        </div>
+
+                        <!-- Feedback 3 -->
+                        <div class="testimonial-card">
+                            <img src="images/feedback3.jpg" alt="Feedback de cliente" class="testimonial-img" loading="lazy">
+                        </div>
+
+                        <!-- Feedback 4 -->
+                        <div class="testimonial-card">
+                            <img src="images/feedback4.jpg" alt="Feedback de cliente" class="testimonial-img" loading="lazy">
+                        </div>
+
+                        <!-- Feedback 5 -->
+                        <div class="testimonial-card">
+                            <img src="images/feedback5.jpg" alt="Feedback de cliente" class="testimonial-img" loading="lazy">
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-arrow carousel-arrow-right" id="carouselNext" aria-label="Próximo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                        <path d="M9 6L15 12L9 18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- CTA / WhatsApp Section -->
+    <section class="section cta" id="contato">
+        <div class="cta-bg-decoration"></div>
+        <div class="container">
+            <div class="cta-content" data-animate="fade-up">
+                <span class="section-tag section-tag-light">Faça seu Pedido</span>
+                <h2 class="cta-title">Quer experimentar o<br><span class="text-accent-light">melhor pão de mel?</span></h2>
+                <p class="cta-text">
+                    Encomende agora pelo WhatsApp! Atendimento personalizado, 
+                    embalagens especiais para presente e entrega combinada.
+                </p>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20encomendar%20p%C3%A3o%20de%20mel%21%20%F0%9F%8D%AF%20Poderia%20me%20passar%20o%20card%C3%A1pio%20e%20os%20pre%C3%A7os%3F" 
+                   class="whatsapp-btn" id="whatsappBtn" target="_blank" rel="noopener">
+                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    <span>Pedir pelo WhatsApp</span>
+                </a>
+                <p class="cta-note">💬 Mensagem pronta — é só enviar!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Pão de Mel da Fa" class="footer-logo">
+                    <p class="footer-text">Pães de mel artesanais feitos com amor e os melhores ingredientes.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#depoimentos">Depoimentos</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pão de Mel da Fa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20encomendar%20p%C3%A3o%20de%20mel%21%20%F0%9F%8D%AF%20Poderia%20me%20passar%20o%20card%C3%A1pio%20e%20os%20pre%C3%A7os%3F" 
+       class="floating-whatsapp" id="floatingWhatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
