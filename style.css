@@ -1246,6 +1246,11 @@ a {
         padding: 0 var(--space-md);
     }
 
+    .testimonials-carousel-wrapper::before,
+    .testimonials-carousel-wrapper::after {
+        display: none; /* Disable edge fading that obscures content on mobile */
+    }
+
     .testimonials-carousel {
         mask-image: none; /* Remove masking on mobile to show content clearly */
         -webkit-mask-image: none;
