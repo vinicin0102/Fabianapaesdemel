@@ -1241,16 +1241,29 @@ a {
         font-size: 1.5rem;
     }
 
+    .testimonials-carousel-wrapper {
+        gap: 0;
+        padding: 0 var(--space-md);
+    }
+
+    .testimonials-carousel {
+        mask-image: none; /* Remove masking on mobile to show content clearly */
+        -webkit-mask-image: none;
+    }
+
     .testimonial-card {
         min-width: 100%;
+        transform: scale(1); /* No scaling for the single card on mobile */
+        filter: brightness(1);
+    }
+
+    .testimonial-card.active {
+        transform: scale(1);
+        box-shadow: none;
     }
 
     .carousel-arrow {
         display: none;
-    }
-
-    .testimonials-carousel-wrapper {
-        gap: 0;
     }
 
     .stat-label {
