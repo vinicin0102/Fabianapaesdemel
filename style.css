@@ -1260,11 +1260,18 @@ a {
         min-width: 100%;
         transform: scale(1); /* No scaling for the single card on mobile */
         filter: brightness(1);
+        aspect-ratio: auto;
+        max-height: none;
     }
 
     .testimonial-card.active {
         transform: scale(1);
         box-shadow: none;
+    }
+
+    .testimonial-img {
+        object-fit: contain;
+        max-height: 600px;
     }
 
     .carousel-arrow {
